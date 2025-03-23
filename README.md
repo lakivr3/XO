@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# XO App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a Tic-Tac-Toe game built with React Native and Expo. It features a modern UI, smooth animations, and cross-platform support.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Classic Tic-Tac-Toe gameplay
+- Smooth animations with Reanimated
+- Responsive UI with NativeWind and Tailwind CSS
+- Navigation using Expo Router
+- Custom fonts with Expo Google Fonts
+- Works on Android, iOS, and Web
 
-   ```bash
+## Tech Stack
+
+- **Expo** - React Native framework for cross-platform development
+- **React Navigation** - Navigation handling
+- **Expo Router** - File-based routing
+- **React Native Reanimated** - Animations
+- **React Native Gesture Handler** - Gesture-based interactions
+- **NativeWind** - Tailwind CSS for styling
+- **Expo Google Fonts** - Custom fonts (Lato, Raleway)
+- **Jest** - Testing framework
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/xo.git
+   cd xo
    npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   npm start
